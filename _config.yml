@@ -29,6 +29,7 @@ defaults:
       #type: "posts" # Jekyll 2.3
     values:
       layout: "post"
+      comments: true
 
 # Analytics and webmaster tools stuff goes here
 google_analytics: UA-8573264-2
@@ -158,7 +159,7 @@ prose:
         field:
           element: "checkbox"
           label: "Comments"
-          value: false
+          value: true
 
 
 include: [".htaccess"]
