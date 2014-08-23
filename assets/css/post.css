@@ -39,14 +39,14 @@ html, body, .notepad-post-container, .notepad-post-header {
   /* -------------------------- */
   /* Delays */ }
   .post-template .notepad-blog-menu .notepad-mobile-menu a {
-    color: white; }
+    color: black; }
     .post-template .notepad-blog-menu .notepad-mobile-menu a:hover {
-      color: white; }
+      color: black; }
   @media only screen and (min-width: 40.063em) {
     .post-template .notepad-blog-menu ul li a {
-      color: white; }
+      color: black; }
       .post-template .notepad-blog-menu ul li a:hover {
-        border-bottom: 0.1875rem solid white; } }
+        border-bottom: 0.1875rem solid black; } }
   .post-template .notepad-post-header {
     position: relative;
     margin: 0 auto;
@@ -55,8 +55,8 @@ html, body, .notepad-post-container, .notepad-post-header {
     .post-template .notepad-post-header .notepad-post-menu-header {
       width: 100%;
       height: 5rem;
-      background-color: black;
-      color: white;
+      background-color: white;
+      color: black;
       position: absolute;
       top: 0;
       left: 0;
@@ -374,8 +374,8 @@ html, body, .notepad-post-container, .notepad-post-header {
 .notepad-post-menu-header-simple {
   width: 100%;
   height: 5rem;
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
   position: relative;
   z-index: 9999; }
   .notepad-page-menu-header .notepad-blog-logo,

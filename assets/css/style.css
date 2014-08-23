@@ -616,7 +616,7 @@ figcaption {
 }
 /* =====================================
  * :: Select Text to Share CSS
- * 
+ *
  * @ Author: Hadrien Boyer
  * @ Website: http://hadrien-boyer.fr
  * @ v.0.1 - Last update : 2014/06/29
@@ -684,7 +684,7 @@ figcaption {
   top:0;
   left:0;
 }
-.tooltipContainer a { 
+.tooltipContainer a {
   width: 100%;
   background:transparent url(/images/sprites.png) 0px 0px no-repeat;
   padding:0;
