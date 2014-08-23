@@ -6,6 +6,7 @@ categories:
 tags:
 - gconf
 - ubuntu
+featured: true
 ---
 
 为了业界良心我又回来写博客了。

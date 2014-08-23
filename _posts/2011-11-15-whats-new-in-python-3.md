@@ -5,6 +5,7 @@ categories:
 - 新闻
 tags:
 - python
+featured: true
 ---
 
 大家好，又到了科普时间，咳咳。

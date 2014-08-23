@@ -7,6 +7,7 @@ categories:
 tags:
 - kernel
 - life
+featured: true
 ---
 
 这学期学业繁忙，一直没什么时间更新博客，不过由于学校开了不少 Linux
