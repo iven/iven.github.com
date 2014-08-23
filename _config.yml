@@ -1,59 +1,67 @@
-title:            Notepad
-description:      "Blogging is fun"
+title:            CODING IS FUN
+description:      "冒险更深入了"
 logo:             logo.png
-disqus_shortname: hmfaysal
+disqus_shortname: kissuki
 share:            true
-dropcap:			true
-# Change url to your domain. Leave localhost server or blank when working locally.
-# or use the hint from http://jekyllrb.com/docs/github-pages/ to keep this the same 
-# whether working locally or remotely. Start Jekyll with: jekyll serve --baseurl ''
-url:        	  /Notepad
+dropcap:			    true
+baseurl:          "http://www.kissuki.com"
 
 # Owner/author information
 owner:
-  name:           Hossain Mohd Faysal
-  avatar:         hmfaysal.jpg
-  email:          hmfaysal@alum.mit.edu
+  name:           Iven Hsu
+  avatar:         iven.jpg
+  email:          ivenvd@gmail.com
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
   description:    Awesome Dude, Awesome Life
   # Social networking links used in footer. Update and remove as you like.
-  twitter:        hmfaysal
-  facebook:       hmfaysal
-  github:         hmfaysal      
-  instagram:      hmfaysal
+  twitter:        ivenvd
+  facebook:       ivenvd
+  github:         iven
+  instagram:      ivenvd
   # For Google Authorship https://plus.google.com/authorship
-  google_plus:    https://plus.google.com/u/0/102602916593522619858
+  google_plus:    http://gplus.to/iven
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "post" # Jekyll 2.2
+      #type: "posts" # Jekyll 2.3
+    values:
+      layout: "post"
 
 # Analytics and webmaster tools stuff goes here
-google_analytics:   UA-39365944-7
-google_verify:      
+google_analytics: UA-8573264-2
+google_verify:
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:         
+bing_verify:
 
 # Links to include in footer navigation
 # For external links add external: true
 links:
-  - title: Home
+  - title: 主页
     url: /
     external: false
     icon: home
-  - title: Featured Posts
+  - title: 精华
     url: /featured
-  - title: Categories
+  - title: 分类
     url: /categories
-  - title: About
+  - title: 标签
+    url: /tags
+  - title: 关于
     url: /about
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    Asia/Dhaka
-future:      true
+timezone:    Asia/Shanghai
+future:      false
 highlighter: pygments
 markdown:    kramdown
-paginate:    5
+paginate:    10
 paginate_path: "page:num"
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   /:categories/:title
+permalink:   /blog/:year/:month/:day/:title
 
 kramdown:
   auto_ids: true
@@ -63,7 +71,7 @@ kramdown:
   use_coderay: false
 
   coderay:
-    coderay_line_numbers: 
+    coderay_line_numbers:
     coderay_line_numbers_start: 1
     coderay_tab_width: 4
     coderay_bold_every: 10
@@ -71,8 +79,8 @@ kramdown:
 
 prose:
   rooturl: '_posts'
-  siteurl: 'http://hmfaysal.github.io/Notepad/'
-  relativeLinks: 'http://hmfaysal.github.io/Notepad/links.jsonp'
+  siteurl: 'http://www.kissuki.com/'
+  relativeLinks: 'http://www.kissuki.com/links.jsonp'
   media: 'images'
   metadata:
     _posts:

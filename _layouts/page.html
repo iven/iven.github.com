@@ -1,38 +1,23 @@
 <!DOCTYPE html>
 <html>
-<!--
-====================================================
-    __  ____  ______________  _______ ___    __ 
-   / / / /  |/  / ____/   \ \/ / ___//   |  / / 
-  / /_/ / /|_/ / /_  / /| |\  /\__ \/ /| | / /  
- / __  / /  / / __/ / ___ |/ /___/ / ___ |/ /___
-/_/ /_/_/  /_/_/   /_/  |_/_//____/_/  |_/_____/
-                                                     
-====================================================
-Owner Name: Hossain Mohammad Faysal
-Profile: https://www.facebook.com/hmfaysal
-Version: 1.1
-Description: Awesome dude, awesome life
-====================================================
--->
 <head>
 {% include head.html %}
 </head>
 <body class="post-template page" itemscope itemtype="http://schema.org/WebPage">
 
 <main id="notepad-page-container" class="notepad-page-container" role="main">
-    
-    
+
+
         <header class="notepad-page-header">
             <div class="notepad-page-menu-header">
-                
-                    <a class="notepad-blog-logo" href="{{ site.url }}">
-                        <img src="{{ site.url }}/images/{{ site.logo }}" alt="Blog Logo">
+
+                    <a class="notepad-blog-logo" href="{{ site.baseurl }}">
+                        <img src="{{ site.baseurl }}/images/{{ site.logo }}" alt="Blog Logo">
                     </a>
-                
-                
-                
-                <div class="notepad-blog-menu">      
+
+
+
+                <div class="notepad-blog-menu">
     <div class="notepad-mobile-menu show-for-small">
         <a href="#"><i class="fa fa-bars"></i></a>
     </div>
@@ -44,10 +29,10 @@ Description: Awesome dude, awesome life
             <li>{% if link.external %}
                     <a href="{{ link.url }}">{{ link.title }}</a>
                 {% else %}
-                    <a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a>
+                    <a href="{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a>
                 {% endif %} </li>
-{% endfor %}            
-           <li><a href="{{ site.url }}/feed.xml" title="Atom/RSS feed"><i class="icon-rss"></i> Feed</a></li>
+{% endfor %}
+           <li><a href="{{ site.baseurl }}/feed.xml" title="Atom/RSS feed"><i class="icon-rss"></i> 订阅</a></li>
     </ul>
 </div>
             </div>
@@ -65,6 +50,6 @@ Description: Awesome dude, awesome life
     {% include footer.html %}
 </main>
 
-{% include scripts.html %}  
+{% include scripts.html %}
 </body>
 </html>

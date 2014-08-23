@@ -1,20 +1,20 @@
 ---
 layout: page
 permalink: /featured/
-title: FEATURED POSTS
-description: "An archive of posts sorted by date."
+title: 精华文章
+description: "按日期呈现的精华文章列表。"
 ---
 {% assign featuredcount = '0' %}
 <ul class="post-list">
 {% for post in site.posts %}
 {% if post.featured %}
 {% assign featuredcount = featuredcount | plus:'1' %}
-  <li><article><i class="fa fa-star-half-o"></i> <a href="{{ site.url }}{{ post.url }}">{{ post.title }} <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span></a></article></li>
+  <li><article><i class="fa fa-star-half-o"></i> <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }} <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span></a></article></li>
 {% endif %}
 {% endfor %}
 </ul>
 {% if featuredcount == '0' %}
 <div class="notepad-page-title row">
-    <h1>No posts has been featured yet</h1>
+    <h1><small>目前还没有精华文章</small></h1>
 </div>
 {% endif %}
