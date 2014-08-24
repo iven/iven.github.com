@@ -26,7 +26,7 @@
 
 {% capture canonical %}{{ site.baseurl }}{% if site.permalink contains '.html' %}{{ page.url }}{% else %}{{ page.url | remove:'index.html' | strip_slash }}{% endif %}{% endcapture %}
 <link rel="canonical" href="{{ canonical }}">
-<link href="{{ site.baseurl }}/feed.xml" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
+<link href="http://feeds.feedburner.com/{{ site.owner.feedburner }}" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
 {% if site.owner.google_plus %}<link rel="author" href="{{ site.owner.google_plus }}?rel=author">{% endif %}
 
 <!-- http://t.co/dKP3o1e -->

@@ -18,8 +18,8 @@ owner:
   facebook:       ivenvd
   github:         iven
   instagram:      ivenvd
-  # For Google Authorship https://plus.google.com/authorship
   google_plus:    http://gplus.to/iven
+  feedburner:     ivenvd
 
 defaults:
   -
