@@ -17,10 +17,8 @@ Shell，现在已经发展到什么程度了呢？
 jhbuild！之前也曾经试用 jhbuild 编译过 GNOME
 Shell，不过最后都不能启动，这次克服了点小困难，终于成功了，简单说一下：
 
--   首先你要有至少 1.9.2 版本的
-    xulrunner，这个根据各个发行版自己解决吧～Arch Linux 下直接安装
-    xulrunner 这个包即可。
--   依次运行下面的命令：
+首先你要有至少 1.9.2 版本的 xulrunner，这个根据各个发行版自己解决吧～Arch Linux 下直接安装 xulrunner 这个包即可。
+依次运行下面的命令：
 
 {% highlight console %}
 $ sudo rm -rf /usr/lib*/*.la
@@ -29,18 +27,15 @@ $ /bin/bash gnome-shell-build-setup.sh
 $ ~/bin/jhbuild build
 {% endhighlight %}
 
--   如果是在 Arch 下，由于 python 3 为默认，编译 gjs
-    的时候，可能要修改一下一个脚本，将 python 改为 python2。
--   编译成功后，使用下面的命令运行：
+如果是在 Arch 下，由于 python 3 为默认，编译 gjs 的时候，可能要修改一下一个脚本，将 python 改为 python2。
+编译成功后，使用下面的命令运行：
 
 {% highlight console %}
 $ cd ~/gnome-shell/source/gnome-shell/src
 $ ./gnome-shell --replace
 {% endhighlight %}
 
--   如果出现下面的错误：
-
-<!-- -->
+如果出现下面的错误：
 
     mutter: symbol lookup error: /home/iven/gnome-shell/install/lib64/gtk-3.0/modules/libcanberra-gtk-module.so: undefined symbol: gtk_quit_ad
 
