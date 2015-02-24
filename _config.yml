@@ -44,6 +44,8 @@ links:
     url: /
     external: false
     icon: home
+  - title: 简历
+    url: /resume
   - title: 精华
     url: /featured
   - title: 分类
