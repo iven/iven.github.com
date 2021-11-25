@@ -4,7 +4,7 @@ logo:             logo.png
 disqus_shortname: kissuki
 share:            true
 dropcap:			    true
-baseurl:          "http://www.kissuki.com"
+baseurl:          "https://www.kissuki.com"
 
 # Owner/author information
 owner:
@@ -82,8 +82,8 @@ kramdown:
 
 prose:
   rooturl: '_posts'
-  siteurl: 'http://www.kissuki.com/'
-  relativeLinks: 'http://www.kissuki.com/links.jsonp'
+  siteurl: 'https://www.kissuki.com/'
+  relativeLinks: 'https://www.kissuki.com/links.jsonp'
   media: 'images'
   metadata:
     _posts:

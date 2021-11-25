@@ -21,7 +21,7 @@ WordPress，中间可能会出现 Feed 重置的情况，敬请谅解。
 链接还没有改成这个地址，所以请不要通过那个订阅，以免发生不便。
 
 另外，由于 Blogspot 的地址不再使用，请各位添加了友情链接的站长将地址改为
-[<http://www.kissuki.com/>](http://www.kissuki.com/)
+[<https://www.kissuki.com/>](https://www.kissuki.com/)
 ，也麻烦各位与我联系重新建立友情链接，以免在我添加友情链接的时候发生遗漏。
 
 关于虚拟空间的具体情况，我会在配置完 WordPress

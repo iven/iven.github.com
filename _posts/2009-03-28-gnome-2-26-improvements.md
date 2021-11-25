@@ -10,7 +10,7 @@ tags:
 Gnome 2.26 已经发布快 10 天了，加入 Arch 的 testing
 源也有好几天了，可是除了 linuxtoy 发布的[一篇文章](http://linuxtoy.org/archives/gnome-226-released.html)，一直没有其他详细的介绍。
 
-本着小白鼠的精神，[Iven](http://www.kissuki.com/)，恩，也就是本人，用破网通，呃，联通 2M
+本着小白鼠的精神，[Iven](https://www.kissuki.com/)，恩，也就是本人，用破网通，呃，联通 2M
 “宽”带，下载了一个小时，终于把所有更新安装上了，给大家挖掘一下 2.26
 版本有哪些变化。
 
